@@ -31,7 +31,7 @@ cd ScanNet/Segmentator
 git checkout 3e5726500896748521a6ceb81271b0f5b2c0e7d2
 make
 
-cd third_party/pointnet2
+cd ../pointnet2
 python setup.py install
 
 cd ../../
